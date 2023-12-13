@@ -14,3 +14,5 @@ console.log(arreglo);
 console.log(arreglo2);
 // el tercer arreglo se hace usando el etodo map (function(){return }), con el cual se ahce un nuevo arreglo agregandole una formula que uno desee.
 console.log(arreglo3);
+
+// esta seccion es mu importante entenderla
