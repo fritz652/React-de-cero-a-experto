@@ -41,7 +41,7 @@ const retornaPersona = ({nombre, edad, clave}) =>{
     console.log(nombre, edad, clave)
 }
 
-retornaPersona(people)
+retornaPersona(people) //Donatelo 30 Camcom
 
 //Ejemplo3:::::::::::::::::::::::::::::::
 
@@ -59,4 +59,4 @@ const use = ({name,age, dni}) =>{
 }
 
 const {nombreClave,anios} = use(alumno);
-console.log(nombreClave, anios)
+console.log(nombreClave, anios) // Juan 15
