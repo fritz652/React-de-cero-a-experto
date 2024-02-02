@@ -1,5 +1,4 @@
-import React from "react";
-
+import "./App.css";
 const newMessaje = {
   menssaje: "Hola Fritz",
   title: "eres muy guapo",
