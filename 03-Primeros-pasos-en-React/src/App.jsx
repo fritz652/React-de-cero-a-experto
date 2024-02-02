@@ -1,4 +1,6 @@
 import "./App.css";
+import { TheDefaultProps } from "./defaultProps/defaultProps";
+import { ThePropTypes } from "./propTypes/PropTypes";
 import { Padre } from "./props/Padre";
 const newMessaje = {
   menssaje: "Hola Fritz",
@@ -12,6 +14,8 @@ const App = () => {
       <h2>{newMessaje.title}</h2>
       <p>Lo confirmo</p>
       <Padre />
+      <ThePropTypes title="Hello soy una prop de tipo boleano y requerido" />
+      <TheDefaultProps />
     </>
   );
 };
