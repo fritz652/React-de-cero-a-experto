@@ -1,4 +1,5 @@
 import "./App.css";
+import { Padre } from "./props/Padre";
 const newMessaje = {
   menssaje: "Hola Fritz",
   title: "eres muy guapo",
@@ -9,7 +10,8 @@ const App = () => {
     <>
       <h1>{newMessaje.menssaje}</h1>
       <h2>{newMessaje.title}</h2>
-      <p>Los confirmo</p>
+      <p>Lo confirmo</p>
+      <Padre />
     </>
   );
 };
