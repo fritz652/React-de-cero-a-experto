@@ -1,4 +1,5 @@
 import "./App.css";
+import { CounterApp } from "./Tarea-Counter-App/CounterApp";
 import { TheDefaultProps } from "./defaultProps/defaultProps";
 import { ThePropTypes } from "./propTypes/PropTypes";
 import { Padre } from "./props/Padre";
@@ -16,6 +17,7 @@ const App = () => {
       <Padre />
       <ThePropTypes title="Hello soy una prop de tipo boleano y requerido" />
       <TheDefaultProps />
+      <CounterApp value={123} />
     </>
   );
 };
