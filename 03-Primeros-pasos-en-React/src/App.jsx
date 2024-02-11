@@ -11,13 +11,13 @@ const newMessaje = {
 const App = () => {
   return (
     <>
-      <h1>{newMessaje.menssaje}</h1>
-      <h2>{newMessaje.title}</h2>
+      <h1> {newMessaje.menssaje} </h1>
+      <h2> {newMessaje.title} </h2>
       <p>Lo confirmo</p>
       <Padre />
       <ThePropTypes title="Hello soy una prop de tipo boleano y requerido" />
       <TheDefaultProps />
-      <CounterApp value={123} />
+      <CounterApp value={20} />
     </>
   );
 };
